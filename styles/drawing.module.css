@@ -1,0 +1,103 @@
+.rectangle{
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 400px;
+  width: 1000px;
+  border-color: black;
+  border-style: double;
+  text-align: center;
+}
+
+.draw{
+
+}
+
+.choice{
+  margin-top: 30px;
+  flex: auto;
+}
+
+.choice button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  background: white;
+  border: 2px solid;
+  line-height: 1;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;;
+  cursor: pointer;
+}
+
+.choice button:hover {
+	box-shadow: inset 0 0 0 1.5px;
+}
+
+
+.invis{
+  margin-top: -66px;
+  padding-left: 46vw;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.vis{
+  margin-top: -66px;
+  padding-left: 46vw;
+  visibility: visible;
+}
+
+
+.choice li{
+  z-index: 3;
+  margin-bottom: -1.5px;
+  width: 89px;
+  height: 6px;
+  background: white;
+  border: 2px solid;
+  line-height: 1;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+ .choice p{
+   font-size: 14px;
+ }
+
+ .coef input{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -17px;
+   z-index: 2;
+   background: white;
+   border: 2px solid;
+   line-height: 1;
+   width: 142px;
+   height: 45px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+
+ .nonecoef input{
+   pointer-events: none;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -17px;
+   z-index: 2;
+   background: white;
+   border: 2px solid grey;
+   line-height: 1;
+   width: 142px;
+   height: 45px;
+   text-align: center;
+   font-size: 15px;
+ }
